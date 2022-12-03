@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#main {
+    display:flex;
+    flex-direction: column;
+    border: 2px black solid;
+    padding:12px;
+    gap:4px;=
+}
+#main div {
+    font-size: 48px;;
+}
+.plrScore,
+.plrScore2 {
+    color:blue;
+}
+.cpuScore,
+.cpuScore2 {
+    color:red;
+}
+
+#btnCon {
+    display:flex;
+    gap:8px;
+    margin-top:18px;
+}
+button {
+    font-size:32px;
+    width:6rem;
+    background-color:white;
+    border: 2px black solid;
+}
