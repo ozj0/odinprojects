@@ -3,23 +3,28 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>rock, paper, scissors</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
-        <script src="script.js" async defer></script>
+        <script src="script.js" defer></script>
     </head>
     <body>
         <h1>Rock Paper Scissors</h1>
         <div id="main">
-            <div>Player Score: <strong class="plrScore">0</strong></div>
-            <div>Computer Score: <strong class="cpuScore">0</strong></div>
-            <div>Total Score:<strong class ='plrScore2'>0</strong> - <strong class="cpuScore2">0</strong></div>
+            <em>first to 5 wins</em>
+            <div id="scoreboard">
+                <p>Player Score: <span id="b1" class="blue">0</span></p>
+                <p>Computer Score: <span id="r1" class="red">0</span></p>
+                <p>Total Score: <span id="b2" c class="blue">0</span> - <span id="r2" class="red">0</span></p>
+            </div>
+            <div id="results">&nbsp;</div>
+            <div id="buttons">
+                <button value="rock">rock</button>
+                <button value="paper">paper</button>
+                <button value="scissors">scissors</button>
+            </div>
         </div>
-        <div id="btnCon">
-            <button class ="gameBtn" value="ROCK">👊</button>
-            <button class ="gameBtn" value="PAPER">✋</button>
-            <button class ="gameBtn" value="SCISSORS">✌</button>
-        </div>
+        <footer>Made by ozlure</footer>
     </body>
 </html>
