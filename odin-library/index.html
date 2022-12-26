@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet">
+    <script src="./script.js" defer></script>
+    <title>Library </title>
+</head>
+<body>
+    <main>
+        <h1>Library</h1>
+        <button class="open">Add Book</button>
+        <table>
+            <tr>
+                <th>Author</th>
+                <th>Title</th>
+                <th>Pages</th>
+                <th>Read</th>
+            </tr>
+        </table>
+    </main>
+    <div class="modal">
+        <button class="exit x">&times</button>
+        <form>
+            <div class="formDiv">
+                <label for="author">Author:</label>
+                <input type="text" name="author" id="author">
+            </div>
+            <div class="formDiv">
+                <label for="title">Title:</label>
+                <input type="text" name="title" id="title">
+            </div>
+            <div class="formDiv">
+                <label for="pages">Pages:</label>
+                <input type="tel" name="pages" id="pages">
+            </div>
+            <div class="formDiv">
+                <label for="isRead">Read:</label>
+                <input type="input" name="isRead" id="isRead">
+            </div>
+            <button type="submit" class="exit"id="submit">Add!</button>
+        </form>
+    </div>
+</body>
+</html>
